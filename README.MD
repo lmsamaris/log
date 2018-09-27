@@ -2,9 +2,14 @@
 Fizz Buzz
 ## Getting Started
 
-Write into the input your number sequence, separating each number with ";", pressing ENTER to submit the form.
+Open the CMD in the project root directory and run the following command to install PHPUnit
 
-Example :
-1;2;3;4;5;6;7;8;9
+```
+composer update
+```
 
-An array will be displayed with the result by submitting the form.
+Use this command to run the TestCase for values from 1 to 20 presented in the FizzBuzzTest.php
+
+```
+ ./vendor/bin/phpunit FizzBuzzTest.php
+ ```
